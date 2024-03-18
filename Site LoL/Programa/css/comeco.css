@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'Spiegel-Bold' ;
+    src: url(../fontes/Spiegel-Bold.otf), format(opentype), url(../fontes/Spiegel_TT_Bold.ttf), format(truetype);
+}
+
+
+html{
+    z-index: -101;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #1b1b1b;
+
+}
+
+body{
+    text-decoration: none;
+    z-index: -100;
+    font-family: 'Spiegel-Bold';
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, transparent 30%, #1b1b1b 100%), url(../img/EGS_LeagueofLegends_RiotGames_S1_2560x1440-80471666c140f790f28dff68d72c384b.jpg);
+
+}
+
+.lista-personagens{
+    text-decoration: none; 
+    color: #d8d8d8;
+    position: relative;
+    background-color: #303030;
+    top: -1200px;
+    left: 60%;
+    width: 33%;
+    border-radius: 9px;
+    border: 15px solid #303030;
+    text-decoration: none;
+    
+}
+
+.lista-personagens li {
+    text-decoration: none;
+    color: #c5c5c5;
+    font-family: 'Spiegel-Bold';
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.lista-personagens img{
+    width: 42px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/*----------------------------------1-------------------------------------------*/
+
+.cortina{
+    align-items: center;
+    position: relative;
+    right: -1%;
+    padding: 1%;
+    height: 43%;
+    width: 52%;
+
+}
+
+.imagem-mostruario{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 9px;
+}
+.imagem-mostruario img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+.imagem-mostruario:hover img{
+    transform: scale(1.1);
+}
+
+.cortina-efx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    pointer-events: none;
+    transition: width 0.5s ease;
+}
+
+.text-sobimagem{
+    font-family: 'Spiegel-Bold';
+    position: absolute;
+    color: #f0f0f0;
+    top: 10%;
+    left: 10%;
+    z-index: 2;
+}
+
+/*----------------------------------2-------------------------------------------*/
+
+.imagem-mostruario2{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 9px;
+}
+.imagem-mostruario2 img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+.imagem-mostruario2:hover img{
+    transform: scale(1.1);
+}
+
+.cortina-efx2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    pointer-events: none;
+    transition: width 0.5s ease;
+}
+
+.text-sobimagem{
+    font-family: 'Spiegel-Bold';
+    position: absolute;
+    color: #f0f0f0;
+    top: 10%;
+    left: 10%;
+    z-index: 2;
+}
+
+/*----------------------------------3-------------------------------------------*/
+
+.imagem-mostruario3{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 9px;
+}
+.imagem-mostruario3 img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+.imagem-mostruario3:hover img{
+    transform: scale(1.1);
+}
+
+.cortina-efx3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    pointer-events: none;
+    transition: width 0.5s ease;
+}
+
+.text-sobimagem{
+    font-family: 'Spiegel-Bold';
+    position: absolute;
+    color: #f0f0f0;
+    top: 10%;
+    left: 10%;
+    z-index: 2;
+}
+
+
+

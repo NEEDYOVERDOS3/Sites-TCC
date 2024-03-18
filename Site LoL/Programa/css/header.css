@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Spiegel-semibold';
+    src: url(../fontes/Spiegel-SemiBold.otf), format(opentype), url(../fontes/Spiegel_TT_SemiBold.ttf), format(truetype);
+
+
+}
+
+
+header{
+    font-size: 118%;
+    font-family: 'Spiegel-semibold';
+    background-color: #201a13;
+    width: 100%;
+     
+ }
+ 
+.navbar-bg-body-tertiary{
+    background-color: #32281E;
+    width: 100%;
+    height: 60px;
+}
+
+
+.logo-img{
+    height: 30px;
+    width: 40px;
+}
+
+.navbar-nome, .Iniciolol, .Optionslol{
+
+    text-decoration: none;
+    color: #f0f0f0;
+    padding: 3%;
+    position: relative;
+    top: 15px;
+
+}
