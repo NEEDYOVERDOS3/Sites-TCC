@@ -1,0 +1,37 @@
+@font-face {
+    font-family: tungsten;
+    src: url(../../Programa/fontes/Valorant-Tungsten-Bold.ttf) format(ttf);
+}
+
+
+
+body{
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+main .cadastro-box{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    top: 30%;
+    padding: 100px;
+    background-color: rgba(110, 110, 110, 0.425);
+    border-radius: 9px;
+    
+    
+}
+
+h1{
+    text-align: center;
+    margin-top: -15%;
+    margin-bottom: %
+}
+
+main .cadastro-box .form-cadastro{
+    ;
+}
