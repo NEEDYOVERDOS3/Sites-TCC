@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Tungsten-Font';
+    src: url(../fontes/Valorant-Tungsten-Bold.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'Spiegel-Regular';
+    src: url(../fontes/Spiegel_TT_Regular.ttf), format(truetype) url(../fontes/Spiegel-Regular.otf) format(opentype);
+}
+
+body{
+
+    background-image: url(../img/mp4/asdasdsadasd.mp4);
+    font-family: 'Spiegel-Regular';
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgb(107, 121, 151) 50%, rgb(42, 45, 63) 100%);
+
+}
+
+.video video{
+    z-index: -100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+}
+
+
+.conter{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background-color: #f0f0f03b;
+    padding: 100px;
+    width: 50%;
+    border-radius: 8px;
+}
+h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.form-nick{
+    font-family: 'Spiegel-Regular';
+    position: relative;
+    left: 210px;
+    margin-bottom: 15px;
+}
+.form-Email{
+    font-family: 'Spiegel-Regular';
+    position: relative;
+    left: 210px;
+    margin-bottom: 10px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+button{
+    font-family: 'Spiegel-Regular';
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #4e3268;
+    cursor: pointer;
+}
+.botao{
+    position: relative;
+    left: 145px;
+    border-radius: 9px;
+    width: 50%;
+    transition: transform 0.5s ease;
+}
+button:hover{
+     transform: scale(1.1);
+    
+}
