@@ -1,37 +1,102 @@
 @font-face {
-    font-family: tungsten;
-    src: url(../../Programa/fontes/Valorant-Tungsten-Bold.ttf) format(ttf);
+    font-family: 'tungsten';
+    src: url(../../Programa/fontes/Valorant-Tungsten-Bold.ttf) format(truetype);
 }
 
-
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
 
 body{
+    display: flex;
     justify-content: center;
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100vh;
-    display: flex;
+    
 }
 
-main .cadastro-box{
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    top: 30%;
-    padding: 100px;
-    background-color: rgba(110, 110, 110, 0.425);
-    border-radius: 9px;
-    
+form{
+    background-color: #7103ca6c;
+    max-width: 500px;
+    width: 50%;
+    height: 70%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    border-radius: 10px;
     
 }
 
 h1{
-    text-align: center;
-    margin-top: -15%;
-    margin-bottom: %
+    font-family: 'tungsten';
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    top: 0%;
+    margin-bottom: 5%;
 }
 
-main .cadastro-box .form-cadastro{
-    ;
+
+form input[type=text]{
+    margin-bottom: 3%;
+    width: 100%;
+    height: 45px;
+    padding-left: 10px;
+}
+form input[type=email]{
+    width: 100%;
+    height: 45px;
+    padding-left: 10px;
+    margin-bottom: 3%;
+}
+
+label{
+    font-family: 'tungsten';
+    font-size: larger;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    left: 5px;
+    margin-bottom: 2px;
+}
+
+select#gen{
+    width: 100%;
+    height: 45px;
+    padding-left: 10px;
+    margin-bottom: 3%;
+}
+
+select#pron{
+    width: 25%;
+    height: 45px;
+    padding-left: 10px;
+    margin-bottom: 3%;
+}
+
+form input[type=submit]{
+    max-width: 100%;
+    width: 50%;
+    height: 30px;
+    position: relative;
+    left: 23%;
+    top: 5%;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(131, 67, 190);
+    border: 0;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+   
 }
