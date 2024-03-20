@@ -8,13 +8,11 @@
 }
 
 body{
-
-    background-image: url(../img/mp4/asdasdsadasd.mp4);
     font-family: 'Spiegel-Regular';
     margin: 0;
     padding: 0;
     align-items: center;
-    background-image: linear-gradient(to bottom, rgb(107, 121, 151) 50%, rgb(42, 45, 63) 100%);
+    justify-content: center;
 
 }
 
@@ -30,37 +28,61 @@ body{
 
 .conter{
     width: 100%;
-    height: 75vh;
+    height: 73vh;
+    color: #f0f0f0;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 form{
-    background-color: #f0f0f03b;
+    background-color: #f0f0f00e;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px #000000a4;
+    border: 1px solid #ffffff25;
     padding: 100px;
-    width: 50%;
     border-radius: 8px;
 }
 h2{
+    font-size: 40px;
     margin-bottom: 20px;
     text-align: center;
 }
-.form-nick{
+.form-nick input{
     font-family: 'Spiegel-Regular';
+    width: 100%;
+    height: 25px;
     position: relative;
-    left: 210px;
     margin-bottom: 15px;
+    border: none;
+    outline: none;
+    border: 2px solid #f0f0f02d;
+    border-radius: 10px;
 }
-.form-Email{
+.form-Email input{
     font-family: 'Spiegel-Regular';
+    width: 100%;
+    height: 25px;
     position: relative;
-    left: 210px;
     margin-bottom: 10px;
+    border: none;
+    outline: none;
+    border: 2px solid #f0f0f02d;
+    border-radius: 10px;
 }
-
+.form-nick input::placeholder{
+    color: #242424;
+}
+.form-Email input::placeholder{
+    color: #242424;
+}
 label{
     display: block;
     margin-bottom: 5px;
+}
+.check{
+    position: relative;
+    left: 20px;
 }
 button{
     font-family: 'Spiegel-Regular';
@@ -71,10 +93,14 @@ button{
     cursor: pointer;
 }
 .botao{
+    font-family: 'Spiegel-Regular';
     position: relative;
-    left: 145px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
     border-radius: 9px;
-    width: 50%;
+    color: #f0f0f0;
+    width: 170px;
     transition: transform 0.5s ease;
 }
 button:hover{
