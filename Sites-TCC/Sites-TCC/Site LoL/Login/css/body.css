@@ -24,8 +24,12 @@ body{
     object-fit: cover;
     width: 100%;
 }
-
-
+.form-nick ::placeholder{
+    padding: 4px;
+}
+.form-Email ::placeholder{
+    padding: 4px;
+}
 .conter{
     width: 100%;
     height: 73vh;

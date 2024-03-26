@@ -4,6 +4,7 @@ header{
 }
 
 .titulo h1{
+    text-shadow: 0 0 10px #202020 ;
     margin-top: 90px;
     color: #b9b9b9;
     text-align: center;
