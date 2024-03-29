@@ -1,0 +1,249 @@
+@font-face {
+    font-family: 'Tungsten';
+    src: url(../fontes/Valorant-Tungsten-Bold.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'Spiegel-Bold';
+    src: url(../fontes/Spiegel_TT_Bold.ttf) format(truetype), url(../fontes/Spiegel-Bold.otf) format(opentype);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tungsten';
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+    height: 2000px;
+    overflow-x: hidden;
+    background:#0d0618;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#020c06, #10061d);
+}
+section::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #10081b, transparent);
+    z-index: 1000;
+}
+section img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+section img#killjoy_png{
+    z-index: 6;
+    position: relative;
+    max-height:700px;
+    max-width: 650px;
+    width: auto;
+    height: auto;
+    transform: translateX(260px);
+}
+#titulo{
+    z-index: 1;
+    position: absolute;
+    color: #f0f0f0;
+    white-space: nowrap;
+    font-size: 7vw;
+    transform: translateY(100px);
+}
+#btn{
+    z-index: 8;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    left: 210px;
+    padding: 8px 30px;
+    border-radius: 9px;
+    background: #f0f0f0;
+    color:#36195c;
+    font-size: 1.5em;
+    transform: translateY(200px);
+}
+.sec{
+    z-index: 7;
+    position: relative;
+    padding: 100px;
+    background: #10081b42;
+}
+.sec{
+    background: linear-gradient(#10081b, transparent);
+}
+.sec h2{
+    font-size: 4.9em;
+    margin-bottom: 10px;
+    color: #f0f0f0;
+}
+.sec p{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #f0f0f0;
+}
+.sec #p2{
+    font-size: 2.0em;
+}
+#btn2{
+    z-index: 8;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    left: 210px;
+    padding: 8px 30px;
+    border-radius: 9px;
+    background: #f0f0f0;
+    color:#36195c;
+    font-size: 1.5em;
+    transform: translatex(400px);
+}
+.fundojinx {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/jinx_jinx.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 0.2s ease-in;
+  }
+.fundojinx2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/jinx_was.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 0.1s ease-in;
+}
+.games{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    background: linear-gradient(transparent,#020c06);
+}
+/* EFEITOS CORTINA E GAMES*/
+
+/* EFEITOS CORTINA E GAMES*/
+.cortina{
+    align-items: center;
+    position: relative;
+    padding: 1%;
+    height: 43%;
+    width: 52%;
+}
+.imagem-mostruario{
+    position: relative;
+    display: inline-block;
+    max-width: 650px;
+    max-height: auto;
+    overflow: hidden;
+    border-radius: 9px;
+}
+.imagem-mostruario img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+.imagem-mostruario:hover img{
+    transform: scale(1.1);
+}
+.cortina-efx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    pointer-events: none;
+    transition: height 0.5s ease;
+}
+.conter:hover .cortina-efx{
+    height: 100%;
+}
+.text-sobimagem{
+    font-family: 'Tungsten-Bold';
+    text-decoration: none;
+    font-size: 3.5em;
+    position: absolute;
+    color: #f0f0f0;
+    top: 10%;
+    left: 10%;
+    z-index: 2;
+}
+.text-sobimagem{
+    font-family: 'Tungsten-Bold';
+    text-decoration: none;
+    position: absolute;
+    color: #f0f0f0;
+    left: 16px;
+    text-align: center;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.cortina:hover .text-sobimagem{
+    opacity: 1;
+}
+.text-sobimagem h2{
+    font-size: 3.5em;
+}
+.text-sobimagem p{
+    font-size: 45px;
+}
+.imagem-mostruario2{
+    position: relative;
+    display: inline-block;
+    max-width: 650px;
+    max-height: auto;
+    overflow: hidden;
+    border-radius: 9px;
+}
+.imagem-mostruario2 img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+.imagem-mostruario2:hover img{
+    transform: scale(1.1);
+}
+.cortina-efx2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    pointer-events: none;
+    transition: height 0.5s ease;
+}
+.conter:hover .cortina-efx2{
+    height: 100%;
+}
