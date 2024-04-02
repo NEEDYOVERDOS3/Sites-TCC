@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'Spiegel-regular';
+    src: url(../../fontes/Spiegel-Regular.otf) format(opentype) url(../../fontes/Spiegel_TT_Regular.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'Spiegel-italic';
+    src: url(../../fontes/Spiegel-RegularItalic.otf) format(opentype) url(../../fontes/Spiegel_TT_Regular_Italic.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'Semibold';
+    src: url(../../fontes/Spiegel-SemiBold.otf) format(opentype) url(../../fontes/Spiegel_TT_SemiBold.ttf) format(truetype);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Tungsten';
+}
+body{
+    min-height: 100vh;
+    height: 2000px;
+    overflow-x: hidden;
+    background:#0d0618;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #10081b, transparent);
+    z-index: 1000;
+}
+section img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+section img#eveFrente{
+    z-index: 6;
+}
+#titulo{
+    z-index: 7;
+    position: absolute;
+    color: #b4b4b4;
+    white-space: nowrap;
+    font-size: 7vw;
+    transform: translateY(100px);
+}
+#btn{
+    z-index: 8;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    left: 210px;
+    padding: 8px 30px;
+    border-radius: 9px;
+    background: #f0f0f0;
+    color:#36195c;
+    font-size: 1.5em;
+    transform: translateY(100px);
+    margin-left: -445px;
+}
+.sec{
+    z-index: 9;
+    position: relative;
+    width: 100%;
+    height: 200vh;
+    padding: 100px;
+    background: #0d0618;
+}
+.sec #cabeca{
+    text-align: center;
+    margin-top: 1px;
+    color: #b4b4b4;
+    font-family: 'Spiegel-regular';
+    font-size: 5vw;
+}
+.sec li{
+    margin-left: 240px;
+    width: 65%;
+    background: #251838;
+    list-style-type: none;
+    padding: 0;
+    border-radius: 9px;
+}
+.partidas li #roles{
+    position: relative;
+    width: 25px;
+    margin-left: 8px;
+    margin-bottom: 15px;
+}
+.partidas #champion{
+    width: 60px;
+    margin-right: 10px;
+    margin: 10px;
+}
+.partidas #nome{
+    font-size: 1.5em;
+    color: #f0f0f0;
+    margin-left: 50px;
+    margin-top: -10px;
+    position: relative;
+    top: -0px;
+}
+.vitlos{
+    position: relative;
+    color: #f0f0f0;
+    font-size: 1.5em;
+    margin-left: 150px;
+    margin-top: -25px;
+    top: -60px;
+}
+#rank{
+    background-color: #3f314e;
+    border-radius: 9px;
+    width: 20%;
+    margin-left: -60px;
+    position: relative;
+    top: -535px;
+    margin-bottom: -100px;
+}
+#tabela{
+    color: #f0f0f0;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: -35px;
+}
+#ranked{
+    width: 230px;
+    position: relative;
+    left: 17px;
+    align-items: center;
+    justify-content: center;
+}
+#nome-rank{
+    color: #f0f0f0;
+    font-size: 2.5em;
+    text-align: center;
+}
+#champfav{
+    background-color: #3f314e;
+    border-radius: 9px;
+    width: 20%;
+    margin-left: -60px;
+    position: relative;
+    top: -400px;
+}
+#favorito,  #campfav{
+    color: #f0f0f0;
+    font-size: 2.5em;
+    text-align: center;
+}
+#fav{
+    width: 90px;
+    margin: 10px;
+    position: relative;
+    left: 25px;
+    align-items: center;
+}
+#friends{
+    width: 22%;
+    background-color: #3f314e;
+    border-radius: 9px;
+    position: relative;
+    top: -640px;
+    margin-left: 1130px;
+    margin-top: -300px;
+
+}
+#amigos{
+    color: #f0f0f0;
+    font-size: 2.5em;
+    text-align: center;
+}
+#nome{
+    color: #f0f0f0;
+    font-size: 1.5em;
+    position: relative;
+    top: -65px;
+    margin-left: 150px;
+}
+#foto{
+    border-radius: 7px;
+    margin: 10px;
+    width: 80px;
+    margin-left: 20px;
+}
