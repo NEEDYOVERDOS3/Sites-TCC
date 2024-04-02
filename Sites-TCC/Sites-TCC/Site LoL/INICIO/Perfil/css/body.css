@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'Spiegel-regular';
-    src: url(../../fontes/Spiegel-Regular.otf) format(opentype) url(../../fontes/Spiegel_TT_Regular.ttf) format(truetype);
+    src: url(../../../fontes/Spiegel-Regular.otf) format(opentype) url(../../../fontes/Spiegel_TT_Regular.ttf) format(truetype);
 }
 @font-face {
     font-family: 'Spiegel-italic';
-    src: url(../../fontes/Spiegel-RegularItalic.otf) format(opentype) url(../../fontes/Spiegel_TT_Regular_Italic.ttf) format(truetype);
+    src: url(../../../fontes/Spiegel-RegularItalic.otf) format(opentype) url(../../../fontes/Spiegel_TT_Regular_Italic.ttf) format(truetype);
 }
 @font-face {
     font-family: 'Semibold';
-    src: url(../../fontes/Spiegel-SemiBold.otf) format(opentype) url(../../fontes/Spiegel_TT_SemiBold.ttf) format(truetype);
+    src: url(../../../fontes/Spiegel-SemiBold.otf) format(opentype) url(../../../fontes/Spiegel_TT_SemiBold.ttf) format(truetype);
 }
 *{
     margin: 0;
@@ -57,6 +57,7 @@ section img#eveFrente{
     z-index: 7;
     position: absolute;
     color: #b4b4b4;
+    text-shadow: 0 0 7px #202020;
     white-space: nowrap;
     font-size: 7vw;
     transform: translateY(100px);
@@ -193,6 +194,7 @@ section img#eveFrente{
     position: relative;
     top: -65px;
     margin-left: 150px;
+    text-decoration: none;
 }
 #foto{
     border-radius: 7px;
